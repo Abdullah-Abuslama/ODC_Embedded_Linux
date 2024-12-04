@@ -1,0 +1,26 @@
+We can perform arithmetic operations in a shell script using several methods. Here's how:
+
+- $((expression)):
+
+Use (( )) for integer arithmetic.
+Example: result=$((3 + 5)).
+
+- expr command:
+
+A legacy tool for arithmetic.
+Example: result=$(expr 3 + 5).
+
+- let command:
+
+For simpler syntax, often used in older scripts.
+Example: let result=3+5.
+
+- bc command:
+
+Handles floating-point arithmetic.
+Example: result=$(echo "3.5 + 2.5" | bc).
+
+- Variables:
+
+Store results in variables for reuse.
+Example: sum=$((a + b)).

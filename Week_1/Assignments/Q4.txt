@@ -1,0 +1,25 @@
+- Standard output (stdout):
+
+> Used for normal program output (e.g., displaying results/data).
+> File descriptor: 1.
+> Can be redirected using > (overwrite) or >> (append).
+
+- Standard error (stderr):
+
+> Used for error messages and diagnostics.
+> File descriptor: 2.
+> Can be redirected using 2> (overwrite) or 2>> (append).
+
+- Differences:
+
+> stdout is for regular output, while stderr is for error messages.
+> Allows separation of normal output and errors for better management.
+
+- Combining streams:
+
+> Redirect both stdout and stderr using 2>&1 to merge them into one output.
+
+
+
+
+
